@@ -97,16 +97,16 @@
 /* Dark-only theme — no light mode. All variables default to dark values. */
 :root {
   /* UI Context Custom Properties */
-  --bg-base: #080809;
-  --bg-surface: #111114;
-  --bg-elevated: #18181c;
-  --bg-subtle: #1e1e23;
-  --border-default: #2a2a30;
-  --border-subtle: #3a3a42;
-  --text-primary: #f0f0f4;
-  --text-secondary: #c0c0cc;
-  --text-muted: #808090;
-  --text-faint: #505060;
+  --bg-base: #050506;
+  --bg-surface: #0e0e15;
+  --bg-elevated: #15151c;
+  --bg-subtle: #181820;
+  --border-default: #26262e;
+  --border-subtle: #363640;
+  --text-primary: #f4f4f6;
+  --text-secondary: #9ca3af;
+  --text-muted: #94a3b8;
+  --text-faint: #52525b;
   --accent-primary: #00c8d4;
   --accent-primary-dim: rgba(0, 200, 212, 0.12);
   --accent-ai: #6457f9;
@@ -147,4 +147,21 @@
   --sidebar-accent-foreground: #f0f0f4;
   --sidebar-border: #2a2a30;
   --sidebar-ring: #00c8d4;
+}
+
+/* Clerk UI Auth Card Customization */
+.cl-socialButtons {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.75rem !important;
+  width: 100% !important;
+}
+
+.cl-socialButtonsBlockButton {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding-top: 0.65rem !important;
+  padding-bottom: 0.65rem !important;
 }
