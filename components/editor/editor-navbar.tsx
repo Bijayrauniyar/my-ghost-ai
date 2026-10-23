@@ -32,7 +32,7 @@ export function EditorNavbar({
       )}
     >
       {/* Left section: sidebar toggle button */}
-      <div className="flex items-center gap-2 min-w-[140px]">
+      <div className="flex items-center gap-2 min-w-0 sm:min-w-[140px]">
         <Button
           variant="ghost"
           size="icon-sm"
@@ -50,16 +50,16 @@ export function EditorNavbar({
       </div>
 
       {/* Center section */}
-      <div className="flex items-center justify-center flex-1 px-4">
+      <div className="flex items-center justify-center flex-1 min-w-0 px-4">
         {centerSection ?? (
-          <span className="text-sm font-medium text-copy-primary tracking-tight">
+          <span className="text-sm font-medium text-copy-primary tracking-tight truncate">
             {title}
           </span>
         )}
       </div>
 
       {/* Right section: stays empty for now */}
-      <div className="flex items-center justify-end gap-2 min-w-[140px]">
+      <div className="flex items-center justify-end gap-2 min-w-0 sm:min-w-[140px]">
         {rightSection}
       </div>
     </header>
