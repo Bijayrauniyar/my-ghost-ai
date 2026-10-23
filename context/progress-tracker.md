@@ -4,15 +4,16 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Feature 01 (Design System) — complete
+- Feature 02 (Editor Chrome) — complete
 
 ## Current Goal
 
-- Feature 02: Editor Chrome (Navbar, Sidebar, Layout)
+- Feature 03: Collaborative Canvas (Liveblocks & React Flow integration)
 
 ## Completed
 
 - Feature 01: Design System — shadcn/ui configured for Tailwind v4 with components.json, dark-only theme tokens in globals.css per ui-context.md, UI primitive components (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea) in components/ui/, lucide-react installed, lib/utils.ts cn() helper created, Geist fonts configured in app/layout.tsx. TypeScript, ESLint, and Next.js build compile clean with zero errors.
+- Feature 02: Editor Chrome — Created `components/editor/editor-navbar.tsx` (fixed-height top navbar, three-section layout, sidebar toggle button using `PanelLeftOpen`/`PanelLeftClose` icons, subtle bottom border) and `components/editor/project-sidebar.tsx` (floating overlay that does not push canvas content, slide animation with `isOpen`, header with `Projects` title and close button, shadcn `Tabs` for "My Projects" and "Shared" with empty states, full-width `New Project` button with `Plus` icon), verified dialog pattern readiness with existing color tokens. TypeScript, ESLint, and Next.js build compile clean with zero errors.
 
 ## In Progress
 
@@ -20,7 +21,7 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Next Up
 
-- Feature 02: Editor Chrome (Navbar, Sidebar, Layout)
+- Feature 03: Collaborative Canvas (Liveblocks and React Flow setup).
 
 ## Open Questions
 
